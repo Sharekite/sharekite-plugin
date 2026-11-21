@@ -1,0 +1,12 @@
+{
+  "name": "sharekite",
+  "interface": { "displayName": "Sharekite" },
+  "plugins": [
+    {
+      "name": "sharekite",
+      "source": { "source": "local", "path": "./plugins/sharekite" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

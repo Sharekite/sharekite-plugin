@@ -1,0 +1,48 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sharekite",
+  "version": "0.1.1",
+  "description": "Publish web pages and files from your agent and share them by link or with the people you name.",
+  "repository": "https://github.com/Sharekite/sharekite-plugin",
+  "author": {
+    "name": "Marek Pazik",
+    "email": "hello@sharekite.app",
+    "url": "https://www.sharekite.app/"
+  },
+  "homepage": "https://www.sharekite.app/",
+  "keywords": [
+    "publishing",
+    "sharing",
+    "web pages",
+    "reports",
+    "static sites"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sharekite",
+        "shortDescription": "Publish and share web pages",
+        "longDescription": "Sharekite publishes the web pages, reports, and other files that you create in a conversation, and shares them with clients and partners. Each upload becomes a prepared version with a preview link; it goes online only when you ask. You choose who can open the work: anyone with the link, or only the people you name, who receive an email invitation. Later, you can update the same address with a new version and check the status of each invitation. Sharekite hosts static files only: it does not run server code or databases. A conversation can publish a site of up to 100 MiB and 1,000 files, with each file up to 20 MiB.",
+        "developerName": "Marek Pazik",
+        "category": "Productivity",
+        "capabilities": [
+          "Publish web pages",
+          "Update published sites",
+          "Share by link or email"
+        ],
+        "websiteURL": "https://www.sharekite.app/",
+        "supportURL": "https://www.sharekite.app/support/",
+        "privacyPolicyURL": "https://www.sharekite.app/privacy/",
+        "termsOfServiceURL": "https://www.sharekite.app/terms/",
+        "defaultPrompt": [
+          "Publish this report and give me a link I can send.",
+          "Share this proposal with sara@example.com.",
+          "Which of my projects have changes that are not published?"
+        ],
+        "brandColor": "#BB204B",
+        "composerIcon": "./assets/composer-icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
