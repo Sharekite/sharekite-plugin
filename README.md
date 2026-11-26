@@ -1,8 +1,8 @@
 # Sharekite plugin
 
-[Sharekite](https://www.sharekite.app/) publishes web pages, reports, and static sites from your agent. You share each page with anyone who has the link, with a password, or only with the people you name, who receive an email invitation. Later, you can publish a new version at the same address.
+Your agent made a report, a proposal, or a prototype. Now the client needs to see it. [Sharekite](https://www.sharekite.app/) lets the agent put that work online from the conversation and share it with clients, partners, and collaborators. Share each page with anyone who has the link, with a password, or only with the people you name, who receive an email invitation. When the work changes, the agent publishes a new version at the same address, so the link you sent keeps working.
 
-This repository holds the Sharekite plugin for agent hosts: the `publish-and-share` skill and the connection to the Sharekite MCP server.
+This plugin connects Codex, Claude Code, and other agent hosts to Sharekite, and tells the agent when and how to use it.
 
 ## Connect Sharekite
 
@@ -39,7 +39,7 @@ In a session, run `/mcp` and sign in to the `sharekite` server.
 ## Contents
 
 - [`plugins/sharekite/`](plugins/sharekite/): the plugin package. It connects the agent to the Sharekite MCP server and includes the `publish-and-share` skill in the [Agent Skills](https://agentskills.io/specification) format, which tells the agent when to use Sharekite and which tools to use for each job. Other hosts that read Agent Skills can use the skill folder alone. The package supports both the [Agent Plugins](https://agent-plugins.org/) format, which Codex reads, and the [Claude plugin](https://claude.com/docs/plugins/build) format. Its [README](plugins/sharekite/README.md) describes what the plugin does and which data it sends.
-- Marketplace entries at the repository root let Codex and Claude Code install the plugin.
+- Marketplace entries at the repository root let Codex and Claude Code install the plugin. The root `.mcp.json` gives the server URL to Cursor and other tools that read it.
 
 Sharekite generates the content of this repository from its application source for each release, so a pull request here does not change the plugin. Report problems in an issue or at hello@sharekite.app.
 
