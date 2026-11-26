@@ -1,6 +1,6 @@
 # Sharekite plugin
 
-[Sharekite](https://www.sharekite.app/) lets your agent put the reports, proposals, and prototypes it makes online from the conversation and share it with clients, partners, and collaborators. Share each page with anyone who has the link, with a password, or only with the people you name, who receive an email invitation. When the work changes, the agent publishes a new version at the same address, so the link you sent keeps working.
+[Sharekite](https://www.sharekite.app/) lets your agent put the reports, proposals, and prototypes it makes online from the conversation and share them with clients, partners, and collaborators. Share each page with anyone who has the link, with a password, or only with the people you name, who receive an email invitation. When the work changes, the agent publishes a new version at the same address, so the link you sent keeps working.
 
 This plugin connects Codex, Claude Code, and other agent hosts to Sharekite, and tells the agent when and how to use it.
 
