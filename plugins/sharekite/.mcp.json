@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sharekite": {
+      "type": "http",
+      "url": "https://studio.sharekite.app/mcp"
+    }
+  }
+}

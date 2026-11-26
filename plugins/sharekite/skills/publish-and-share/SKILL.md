@@ -38,5 +38,5 @@ Match the user's words to the project names from `list_projects`. When several p
 ## Report
 
 - After each upload, give the preview link. After each `publish`, give the audience and the status of each invitation.
-- Give the address of each project that you name.
+- Give the address of each published project that you name. A project that was never published has no page at its address yet, so give its Studio link instead.
 - Copy links exactly as the tools return them. Do not build a link from a project key.

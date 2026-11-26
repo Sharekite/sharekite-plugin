@@ -1,0 +1,15 @@
+{
+  "name": "sharekite",
+  "owner": {
+    "name": "Marek Pazik",
+    "email": "hello@sharekite.app",
+    "url": "https://www.sharekite.app/"
+  },
+  "description": "Publish web pages and files from your agent and share them by link or with the people you name.",
+  "plugins": [
+    {
+      "name": "sharekite",
+      "source": "./plugins/sharekite"
+    }
+  ]
+}
